@@ -1,0 +1,31 @@
+/* Estilos básicos para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor para las imágenes responsive */
+.responsive-images {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    padding: 10px;
+}
+
+/* Estilo para cada imagen */
+.responsive-img {
+    max-width: 100%; /* Hace que la imagen no exceda el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Espacio alrededor de cada imagen */
+    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Media query para ajustar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .responsive-img {
+        margin: 5px; /* Reduce el margen en pantallas más pequeñas */
+    }
+}

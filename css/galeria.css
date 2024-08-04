@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center; /* Centra el texto horizontalmente */
+    color: black; /* Color del texto */
+    font-size: 6em; /* Tamaño de fuente */
+    font-family:fantasy;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 10px;
+}
+.column img{
+    margin-top: 10px;
+}
+@media (max-width:800px) {
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width:400px) {
+    .column{
+        flex: 100%;
+    }
+}
+

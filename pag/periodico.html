@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lente Informativo</title>
+    <link rel="stylesheet" href="/css/periodico.css">
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div w3-include-html="menuPrincipal.html"></div>
+
+    <header class="bg-light text-dark py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <img src="/img/logo.png" alt="logo" class="logo_footer">
+            </div>
+           
+            <h1 class="text-center">Lente Informativo</h1>
+            <div class="d-flex">
+                <button class="btn btn-light me-2">Iniciar sesión</button>
+                <button class="btn btn-light">Crear Cuenta</button>
+                <i class="fas fa-user ms-3 fa-2x"></i>
+            </div>
+        </div>
+        <nav class="bg-dark text-light py-2">
+            <div class="container">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-light" href="#deporte">Deporte</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#farandula">Farándula</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#tecnologia">Tecnología</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <section class="noticias-principal">
+            <h2>Noticias del día</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <article class="noticia mb-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/img/deporte.jpeg" alt="Final del Abierto de Wimbledon" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Final del Abierto de Wimbledon 2024: Nadal vs. Djokovic</h3>
+                                <p>En una apasionante final del Abierto de Wimbledon 2024, Rafael Nadal se enfrenta a Novak Djokovic en un duelo que promete ser histórico...</p>
+                                <a href="#" class="btn btn-outline-dark">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="noticia mb-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/img/Economia.jpg" alt="Revolución de la IA" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Las noticias económicas de la semana</h3>
+                                <p>Los transportistas protestan de nuevo en Bolivia por la falta de combustible. Estados Unidos retrasa la imposición de aranceles a vehículos eléctricos y baterías de China...</p>
+                                <a href="#" class="btn btn-outline-dark">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="noticia mb-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/img/ia.jpeg" alt="Revolución de la IA" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Nuevo Avance Tecnológico: La Revolución de la IA</h3>
+                                <p>En el centro de los debates sobre tecnología en Davos 2024, hubo un creciente reconocimiento de que el futuro de la inteligencia artificial (IA) no debe limitarse a los extremos del optimismo y el pesimismo. Los líderes y expertos en tecnología coincidieron en que, para abordar de manera efectiva los desafíos y aprovechar las oportunidades que la IA presenta, es fundamental adoptar una perspectiva equilibrada. Se subrayó la importancia de considerar tanto los beneficios potenciales de la IA</p>
+                                <a href="#" class="btn btn-outline-dark">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <aside class="col-lg-4">
+                    <h2>Noticias Destacadas</h2>
+                    <article class="mb-4">
+                        <h3>El Impacto del Cambio Climático en 2024</h3>
+                        <img src="/img/cambioClimatico.jpg" alt="Cambio Climático" class="img-fluid mb-2">
+                        <p>Un nuevo reporte revela cómo, debido al cambio climático, aumentaron las enfermedades infecciosas...</p>
+                    </article>
+                    <article class="mb-4">
+                        <h3>Shakira condecorada por su trabajo a favor de la justicia social</h3>
+                        <img src="/img/shakira.jpg" alt="Celebridades y Movimientos Sociales" class="img-fluid mb-2">
+                        <p>La artista de fama internacional y filántropa Shakira fue condecorada hoy en la Organización Internacional del Trabajo...</p>
+                    </article>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <h3>Síguenos en:</h3>
+                <div class="social-media-icons">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <img src="/img/logo.png" alt="logo" class="logo_footer">
+            </div>
+            <div class="text-center">
+                <p>&copy; 2024 Boletín Informativo. Todos los derechos reservados.</p>
+                <p>Otra información relevante del sitio web.</p>
+                <p>Publicaciones Lente Noticiro S.A</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="final_footer bg-dark text-light text-center py-3">
+        <p>Todas las marcas registradas son propiedad de la compañía respectiva o de PUBLICACIONES LENTE INFORMATIVO S.A...</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script>w3IncludeHTML();</script>
+</body>
+</html>
